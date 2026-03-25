@@ -1,10 +1,11 @@
 import React from 'react'
+import CardsSection from '../components/CardsSection'
 
 const Home = () => {
   return (
-    <div>
-      Home
-    </div>
+    <>
+        <CardsSection/>
+    </>
   )
 }
 
