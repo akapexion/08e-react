@@ -7,6 +7,7 @@ import About from './pages/About'
 import Sender from './props/Sender'
 import Counter from './components/Counter'
 import ProductsSection from './components/ProductsSection'
+import Effect from './pages/Effect'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
                     <Route path="/props" element={<Sender/>}></Route>
                     <Route path="/counter" element={<Counter/>}></Route>
                     <Route path="/products" element={<ProductsSection/>}></Route>
+                    <Route path="/effect" element={<Effect/>}></Route>
               </Routes>
         <Footer />
       </BrowserRouter>
